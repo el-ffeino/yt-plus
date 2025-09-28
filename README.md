@@ -37,6 +37,6 @@ Technically any Firefox-based browser on either Windows or Linux should work (No
 Chrome is currently <ins>unsupported</ins> as it fails to connect to the server, I'm assuming it's a mixed content issue.  
 This would require the server to use `wss://` rather than the current `ws://` protocol
 
-`popup.js` is already coded to support Chrome, but I don't have the time to fix said issue
+`popup.js` already supports Chrome, but I don't have the time to fix the issue mentioned above.
 
 Another thing is the hard-coded value for the popup's `border-radius` property within Chrome, which makes it look ugly
