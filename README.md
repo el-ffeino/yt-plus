@@ -9,7 +9,7 @@ It comes with an extension where you can track and manage all of your downloads.
 Simply click the `Download` button injected into your Youtube web player to download the video.  
 Alternatively, you may also open the extension popup and press `Get This Video`, either works.
 
-You can also set the 🍪 cookies or proxies in the `Settings` page inside the extension popup in case you get rate limited (or want to up your download quality if you have Youtube premium).
+You can also set the 🍪 cookies or proxies in the `Settings` page inside the extension popup in case you get rate limited or want to up your download quality if you have Youtube premium.
 
 The downloader automatically gets the **best quality** available;  
 All of the downloads will appear inside the 'Downloads' directory where the yt-plus binaries are located.
