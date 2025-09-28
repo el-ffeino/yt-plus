@@ -6,7 +6,8 @@ Download any video directly from your browser without having to rely on 3rd part
 It comes with an extension where you can track and manage all of your downloads.
 
 ## How do I use it?
-Simply click the `Download` button injected into your Youtube web player to download the video or open the extension popup and click on `Get This Video` - either works.  
+Simply click the `Download` button injected into your Youtube web player to download the video.  
+Alternatively, you may also open the extension popup and press `Get This Video`, either works.
 You can also set the 🍪 cookies or proxies in the `Settings` page inside the extension popup in case you get rate limited (or want to up your download quality if you have Youtube premium).
 
 The downloader automatically gets the **best quality** available;  
@@ -32,7 +33,7 @@ Technically any Firefox-based browser on either Windows or Linux should work (No
 > If you're on Windows you may need to manually install [ffmpeg](https://github.com/yt-dlp/FFmpeg-Builds).
 
 #### What about Chrome?
-Chrome is currently **unsupported** as it fails to connect to the server, I'm assuming it's a mixed content issue.  
+Chrome is currently <ins>unsupported</ins> as it fails to connect to the server, I'm assuming it's a mixed content issue.  
 This would require the server to use `wss://` rather than the current `ws://` protocol
 
 `popup.js` is already coded to support Chrome, but I don't have the time to fix said issue
