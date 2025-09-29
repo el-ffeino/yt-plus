@@ -5,6 +5,12 @@ Download any video directly from your browser without having to rely on 3rd part
 **yt-plus** is a locally hosted video downloading server that uses a self-updating instance of [yt-dlp](https://github.com/yt-dlp/yt-dlp/) in the background.  
 It comes with an extension where you can track and manage all of your downloads.
 
+
+
+https://github.com/user-attachments/assets/21bd473d-afcd-42d7-9081-99675a092424
+
+
+
 ## ⁉️ How do I use it?
 Simply click the `Download` button injected into your Youtube web player to download the video.  
 Alternatively, you may also open the extension popup and press `Get This Video`, either works.
