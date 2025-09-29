@@ -18,7 +18,7 @@ Alternatively, you may also open the extension popup and press `Get This Video`,
 You can also set the 🍪 cookies or proxies in the `Settings` page inside the extension popup in case you get rate limited or want to up your download quality if you have Youtube premium.
 
 > [!TIP]
-> These are equivalent to yt-dlp's `proxy` and `--cookies-from-browser` arguments
+> These are equivalent to yt-dlp's `--proxy` and `--cookies-from-browser` arguments
 
 The downloader automatically gets the **best quality** available;  
 All of the downloads will appear inside the 'Downloads' directory where the yt-plus binaries are located.
