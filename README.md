@@ -5,26 +5,40 @@ Download any video directly from your browser without having to rely on 3rd part
 **yt-plus** is a locally hosted video downloading server that uses a self-updating instance of [yt-dlp](https://github.com/yt-dlp/yt-dlp/) in the background.  
 It comes with an extension where you can track and manage all of your downloads.
 
-## How do I use it?
+## ⁉️ How do I use it?
 Simply click the `Download` button injected into your Youtube web player to download the video.  
 Alternatively, you may also open the extension popup and press `Get This Video`, either works.
 
 You can also set the 🍪 cookies or proxies in the `Settings` page inside the extension popup in case you get rate limited or want to up your download quality if you have Youtube premium.
 
+> [!TIP]
+> These are equivalent to yt-dlp's `proxy` and `--cookies-from-browser` arguments
+
 The downloader automatically gets the **best quality** available;  
 All of the downloads will appear inside the 'Downloads' directory where the yt-plus binaries are located.
 
-## Dependencies
+## 📦 Dependencies
 Server is written in C#, therefore [.NET Runtime](https://dotnet.microsoft.com/en-us/download) is required to run it.  
 You should also have `ffmpeg` installed to make sure yt-dlp works properly.
 
 **Arch Linux**:  
-```
+```console
 sudo pacman -S dotnet-runtime ffmpeg
 ```
 
-## Installation
-- to be added
+## 🛠 Installation
+##### Server
+- Get the latest [release](https://github.com/el-ffeino/yt-plus/releases) for either Linux or Windows
+- Unpack it and run `yt-plus` executable
+
+##### Extension
+- Head over to `about:debugging#/runtime/this-firefox` in your Firefox
+- Load temporary Add-on
+- Select `manifest.json` from the `Extension` directory
+
+#### How do I permanently install this?
+Chrome version requires `wss://` to function and Firefox wants your name, address and soul in order to make an extension installable  
+Feel free to post it on Firefox addons page yourself, I really could not be bothered
 
 ## Requirements to run
 [Arch Linux](https://archlinux.org/) with [Zen](https://flathub.org/en/apps/app.zen_browser.zen) browser (Tested, works)  
